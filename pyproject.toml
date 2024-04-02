@@ -6,7 +6,7 @@ build-backend = "poetry.core.masonry.api"
 name = "django-app"
 version = "0.0.0"
 description = "Bug reproduction example"
-authors = "Rein van 't Veer"
+authors = ["Rein van 't Veer"]
 
 [tool.poetry.dependencies]
 python = ">=3.12,<3.13"
@@ -22,7 +22,7 @@ priority = "primary"
 
 [tool.django-stubs]
 ignore_missing_model_attributes = true
-django_settings_module = "src.myapp.settings"
+django_settings_module = "src.myapp.myapp.settings"
 
 [tool.mypy]
 python_version = "3.12"
