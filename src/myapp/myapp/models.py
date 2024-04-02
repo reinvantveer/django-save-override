@@ -1,8 +1,3 @@
-"""
-The Tenant module
-
-Exposes the tenant administration, for administrators to add, change and remove SPOTinfo tenants or subtenants
-"""
 from collections.abc import Iterable
 from typing import override
 
