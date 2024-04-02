@@ -6,7 +6,7 @@ Minimal reproducible example of bug described in https://github.com/typeddjango/
 git clone git@github.com:reinvantveer/django-save-override
 cd django-save-override
 poetry install
-mypy .
+poetry run mypy .
 ```
 This should result in:
 ```
