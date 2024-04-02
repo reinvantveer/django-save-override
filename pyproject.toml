@@ -4,6 +4,9 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "django-app"
+version = "0.0.0"
+description = "Bug reproduction example"
+authors = "Rein van 't Veer"
 
 [tool.poetry.dependencies]
 python = ">=3.12,<3.13"
